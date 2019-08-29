@@ -1,0 +1,10 @@
+there should not be any space between the first and second line, and there's also no scape between the different options on each line. Please use the gray and red and white color as shown in the pdf i sent you
+
+by default, the first option of the first line should be selected and the content should be filtered based on it and its sub categories. So if python is the first item in the first line, then that should selected and the query should be industries=[python id]&industries=[web2py id]&industries=[tornado id] etc
+
+the content boxes should be full screen so no white space around the box, no white space on the sides, no white space between the boxes. Also reduce the size of the title and make the domain color red like in the pdf. On the fourth line, please display the job functions + industries not just industries. I also added a timeago field to the api, please use that for the date
+
+when i scroll down and try to load more content i get this error
+
+i notices that you're hardcoding the url in src/screens/HomeScreen/actions.js line 35. Please load the base url news.bluefield.io from environment and dont hardcode the urls
+
